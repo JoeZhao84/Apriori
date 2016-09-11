@@ -121,8 +121,6 @@ def printResults(items, rules):
         pre, post = rule
         print ("Rule: %s ==> %s , %.3f" % (str(pre), str(post), confidence))
 
-lambda x_y: x_y[0] + x_y[1]
-
 def dataFromFile(fname):
         """Function which reads from the file and yields a generator"""
         file_iter = open(fname, 'rU')
